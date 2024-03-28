@@ -1,0 +1,42 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*custom_changes*/
+
+.side_technologies {
+  padding: 8px 16px;
+}
+
+/*grid_portfolios*/
+
+.grid_portfolio {
+  margin: 20px;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+}
+
+.item_portfolio img {
+  height: 55%;
+}
+
+.item_portfolio div {
+  height: 45%;
+}
+
+.item_portfolio a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #009688;
+}
