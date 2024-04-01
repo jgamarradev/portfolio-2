@@ -20,6 +20,10 @@ a {
 
 /*grid_portfolios*/
 
+.title-portfolio{
+  margin: 20px;
+}
+
 .grid_portfolio {
   margin: 20px;
   display: grid;

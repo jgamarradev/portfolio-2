@@ -37,7 +37,7 @@ header {
   align-items: center;
 }
 
-.nav-menu nav div {
+.nav-menu nav a {
   padding: 10px;
   margin: 0 10px 0 0;
   color: white;

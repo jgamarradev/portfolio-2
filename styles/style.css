@@ -1,6 +1,7 @@
 /********** Template CSS **********/
 /*** Hero ***/
 
+@import url("./globals.css");
 @import url("./hero.css");
 @import url("./typed.css");
 
