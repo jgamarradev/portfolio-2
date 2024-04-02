@@ -1,0 +1,85 @@
+/*=============================================
+TABLET HORIZONTAL (LG 1024px)
+=============================================*/
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .nav-menu nav a {
+    font-size: 1rem;
+  }
+}
+
+/*=============================================
+TABLET VERTICAL (MD 768px)
+=============================================*/
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .nav-menu nav a {
+    font-size: 1rem;
+  }
+}
+
+/*=============================================
+MÓVIL HORIZONTAL (SM 576px)
+=============================================*/
+
+@media (max-width: 767px) and (min-width: 576px) {
+  .nav-menu nav a {
+    font-size: 1rem;
+  }
+}
+
+/*=============================================
+MOVIL VERTICAL (320px)
+=============================================*/
+
+@media (max-width: 575px) {
+  .nav-menu nav a {
+    font-size: 1rem;
+  }
+  /*menu*/
+  .nav-menu{
+    display: none;
+  }
+
+  .two-columns{
+    margin-top: 50px !important;
+  }
+
+  .left-column{
+    text-align: center;
+  }
+
+  .banner-name{
+    font-size: 2rem;
+    margin: auto;
+  }
+
+  /*hero-text*/
+  .banner-text{
+    display: none;
+  }
+
+  .hero{
+    width: 100%;
+    height: auto;
+    
+  }
+
+  /*two-columns*/
+  .hero .left-column{
+    width: 90%;
+    margin: auto;
+  }
+  .hero .right-column{
+    width: 90%;
+    margin: auto;
+  }
+  .banner-img{
+    width: 40%;
+    height: auto;
+  }
+
+  .banner-quote{
+    font-size: 1rem;
+  }
+}
