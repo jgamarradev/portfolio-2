@@ -44,7 +44,7 @@ header {
   font-size: 1.25rem;
 }
 
-a.contact-button{
+a.contact-button {
   margin: 0 !important;
 }
 
@@ -64,6 +64,9 @@ a.contact-button{
   display: flex;
   align-items: center;
   background: url("../img/banner_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero .left-column {
@@ -103,6 +106,27 @@ a.contact-button{
 .banner-img img {
   height: 100%;
   width: auto;
+}
+
+.download-cv {
+  margin-top: 25px;
+}
+
+.download-cv a {
+  padding: 15px 25px;
+  border-radius: 10px;
+  color: #00ee42;
+  background: #033faf;
+  font-weight: bold;
+  border: 1px solid #00ee42;
+}
+
+.download-cv a:hover {
+  padding: 15px 25px;
+  border-radius: 10px;
+  color: #033faf;
+  background: #00ee42;
+  font-weight: bold;
 }
 
 .banner-quote {
