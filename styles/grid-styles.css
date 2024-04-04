@@ -20,27 +20,87 @@ a {
 
 /*grid_portfolios*/
 
-.title-portfolio{
-  margin: 20px;
+.title-portfolio {
+  margin: 80px 20px 50px;
 }
 
 .grid_portfolio {
   margin: 20px;
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
 }
 
-.item_portfolio img {
-  height: 55%;
+.item-portfolio {
+  cursor: pointer;
 }
 
-.item_portfolio div {
-  height: 45%;
+.portfolio-container {
+  padding: 22% 10%;
+  border-radius: 20px;
 }
 
-.item_portfolio a {
-  text-decoration: none;
+.project-description {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-description p {
   font-weight: bold;
-  color: #009688;
+  color: white;
+  text-align: center;
+  visibility: hidden;
+}
+
+.project-link {
+  margin-top: 10px;
+  padding: 10px 25px;
+  border-radius: 10px;
+  color: #00ee42;
+  background: #033faf;
+  font-weight: bold;
+  border: 1px solid #00ee42;
+  visibility: hidden;
+}
+
+.project-link:hover {
+  color: #033faf;
+  background: #00ee42;
+}
+
+.item-portfolio:hover .project-link,
+.item-portfolio:hover .project-description p {
+  visibility: visible;
+}
+
+#portfolio-1:hover .portfolio-container {
+  background: linear-gradient(
+      to right,
+      rgba(3, 63, 175, 0.9),
+      rgba(2, 134, 136, 0.9)
+    ),
+    url("https://raw.githubusercontent.com/jgamarradev/portfolio/main/established.png")
+      center / cover no-repeat !important;
+}
+
+#portfolio-2:hover .portfolio-container {
+  background: linear-gradient(
+      to right,
+      rgba(3, 63, 175, 0.9),
+      rgba(2, 134, 136, 0.9)
+    ),
+    url("https://raw.githubusercontent.com/jgamarradev/portfolio/main/established.png")
+      center / cover no-repeat !important;
+}
+
+#portfolio-3:hover .portfolio-container {
+  background: linear-gradient(
+      to right,
+      rgba(3, 63, 175, 0.9),
+      rgba(2, 134, 136, 0.9)
+    ),
+    url("https://raw.githubusercontent.com/jgamarradev/portfolio/main/established.png")
+      center / cover no-repeat !important;
 }
