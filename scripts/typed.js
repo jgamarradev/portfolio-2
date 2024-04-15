@@ -1,9 +1,9 @@
 $("#typed").typed({
   strings: [
-    "Web Developer",
-    "Front end Developer",
-    "Back end Developer",
-    "Wordpress Expert",
+    "Desarrollador Web",
+    "Desarrollador Front end",
+    "Desarrollador Back end",
+    "Experto Wordpress",
   ],
   typeSpeed: 40,
   backSpeed: 30,
