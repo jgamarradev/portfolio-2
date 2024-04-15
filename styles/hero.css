@@ -12,7 +12,17 @@ header {
   align-items: center;
   width: 90%;
   margin: auto;
-  padding: 20px;
+  padding: 1.25rem;
+}
+
+/*=============================================
+MOVIL VERTICAL (320px)
+=============================================*/
+
+@media (max-width: 575px) {
+  .header-container {
+    padding: .5rem;
+  }
 }
 
 .brand-logo {

@@ -1,6 +1,16 @@
 .type-wrap {
-  font-size: 35px;
+  font-size: 2rem;
   color: #76f4ff;
+}
+
+/*=============================================
+MOVIL VERTICAL (320px)
+=============================================*/
+
+@media (max-width: 575px) {
+  .type-wrap {
+    font-size: 1.5rem;
+  }
 }
 
 /* the above is for styling puposes only */

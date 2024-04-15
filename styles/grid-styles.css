@@ -25,10 +25,21 @@ a {
 }
 
 .grid_portfolio {
-  margin: 20px;
+  margin: auto;
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+}
+
+/*=============================================
+MOVIL VERTICAL (320px)
+=============================================*/
+
+@media (max-width: 575px) {
+  .grid_portfolio {
+    width: 95%;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  }
 }
 
 .item-portfolio {

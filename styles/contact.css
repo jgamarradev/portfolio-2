@@ -1,5 +1,5 @@
-h4.contact{
-    margin-bottom: 20px;
+h4.contact {
+  margin-bottom: 20px;
 }
 
 .contact-container {
@@ -31,4 +31,34 @@ h4.contact{
 .contact-container i {
   color: inherit;
   font-size: 2rem;
+}
+
+/*=============================================
+MOVIL VERTICAL (1023px)
+=============================================*/
+
+@media (max-width: 1199px) and (min-width: 768px) {
+  .contact-container {
+    flex-wrap: wrap;
+  }
+
+  .contact-container > a {
+    width: 45%;
+    font-size: 0.8rem;
+  }
+}
+
+/*=============================================
+MOVIL VERTICAL (320px)
+=============================================*/
+
+@media (max-width: 767px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-container > a {
+    width: 100%;
+    font-size: 0.7rem;
+  }
 }
